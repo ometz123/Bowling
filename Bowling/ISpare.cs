@@ -6,11 +6,7 @@ using System.Threading.Tasks;
 
 namespace Bowling
 {
-    class Program
+    interface ISpare:IRank
     {
-        static void Main(string[] args)
-        {
-
-        }
     }
 }

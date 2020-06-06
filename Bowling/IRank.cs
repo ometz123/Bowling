@@ -6,11 +6,8 @@ using System.Threading.Tasks;
 
 namespace Bowling
 {
-    class Program
+    interface IRank
     {
-        static void Main(string[] args)
-        {
-
-        }
+        int CalculateRank();
     }
 }

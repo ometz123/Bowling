@@ -6,11 +6,12 @@ using System.Threading.Tasks;
 
 namespace Bowling
 {
-    class Program
+    class Rank: IRank,IStrike,ISpare,IHole
     {
-        static void Main(string[] args)
+        public int Points { get; set; }
+        public int CalculateRank()
         {
-
+            throw new NotImplementedException();
         }
     }
 }

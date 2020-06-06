@@ -6,11 +6,12 @@ using System.Threading.Tasks;
 
 namespace Bowling
 {
-    class Program
+    class Pin
     {
-        static void Main(string[] args)
+        public int Count { get; set; }
+        public Pin(int count)
         {
-
+            Count = count;
         }
     }
 }
